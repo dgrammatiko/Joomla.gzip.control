@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * @copyright	Copyright (c) 2014 XS_NRG. All rights reserved.
+ * @license		GNU General Public License version 2 or later; see LICENSE.txt
+ */
+-->
+<extension type="plugin" version="3.0" group="system" method="upgrade">
+	<name>Gzip Control</name>
+	<author>Dimitris Grammatiko</author>
+	<creationDate>July 2014</creationDate>
+	<copyright>Copyright (c) 2014 XS_NRG. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>d.grammatiko@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0.0</version>
+	<description>
+	<![CDATA[
+		Enable this plugin to disable the compressed output on given User Agents.
+	]]>
+	</description>
+
+	<files>
+		<filename plugin="gzcontrol">gzcontrol.php</filename>
+	</files>
+	
+	<languages>
+		<language tag="en-GB">en-GB.plg_system_gzcontrol.ini</language>
+		<language tag="en-GB">en-GB.plg_system_gzcontrol.sys.ini</language>
+	</languages>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+			<field name="note1" type="note" label="PLG_SYSTEM_GZCONTROL_NOTE1" />
+				<field name="custom"
+					type="text"
+					default=""
+					description="PLG_SYSTEM_GZCONTROL_FIELD_MORE_DESC"
+					label="PLG_SYSTEM_GZCONTROL_FIELD_MORE_LABEL"
+					filter="html">
+				</field>
+			<field name="note2" type="note" label="PLG_SYSTEM_GZCONTROL_NOTE2" />
+			<field name="note3" type="note" label="PLG_SYSTEM_GZCONTROL_NOTE3" />
+			<field name="note4" type="note" label="PLG_SYSTEM_GZCONTROL_NOTE4" />
+			<field name="note5" type="note" label="PLG_SYSTEM_GZCONTROL_NOTE5" />
+			<field name="note6" type="note" label="PLG_SYSTEM_GZCONTROL_NOTE6" />
+			<field name="note7" type="note" label="PLG_SYSTEM_GZCONTROL_NOTE7" />
+			</fieldset>
+		</fields>
+	</config>
+	
+</extension>
