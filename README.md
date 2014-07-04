@@ -11,7 +11,7 @@ By default this plugin disables the gzip compression of the html output of your 
 Also you can specify easily your own User Agents (BOTs most of the time) that feel happier with plain uncompressed html!
 
 
-For example on the Plugin's setup page you can type:
+E.g. on the Plugin's setup page you can type:
 
 ```
 Firefox|IOS
