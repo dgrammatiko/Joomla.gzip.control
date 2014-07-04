@@ -1,4 +1,4 @@
-Joomla.gzip.control
+Joomla! gzip control
 ===================
 
 
