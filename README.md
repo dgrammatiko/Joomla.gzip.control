@@ -2,7 +2,7 @@ Joomla! gzip control
 ===================
 
 
-Need some control over the compressed output of Joomla! ?
+Need some control over the compressed output of Joomla! 3.x ?
 
 Look no further.
 
